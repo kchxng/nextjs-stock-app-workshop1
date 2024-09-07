@@ -1,9 +1,9 @@
 "use client";
-const AuthLayout = ({
-  children, // With page or instead layout
-}: {
+type Props = {
   children: React.ReactNode;
-}) => {
+};
+
+const AuthLayout = ({ children }: Props) => {
   return <section>{children}</section>;
 };
 export default AuthLayout;

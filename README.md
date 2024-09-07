@@ -114,3 +114,12 @@ module.exports ={
     },
 };
 ```
+
+## Enable to build production as standalone. access to config file in `next.config.mjs` as follows
+
+```bash
+const nextConfig = {
+  distDir: "build", #// Change 'build' to your desired folder name
+  output: "export", #// For static exports (if you're exporting a static site)
+};
+```
