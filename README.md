@@ -105,7 +105,7 @@ yarn add formik formik-material-ui chart.js react-chartjs-2 axios react-iframe d
 
 ```
 
-# Enable or Disable tailwind css on `tailwind.configs.ts`
+## Enable or Disable tailwind css on `tailwind.configs.ts`
 
 ```bash
 module.exports ={
