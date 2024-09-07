@@ -16,4 +16,10 @@ const config: Config = {
   },
   plugins: [],
 };
+// disable tailwind css
+module.exports = {
+  corePlugin: {
+    preflight: false,
+  },
+};
 export default config;
