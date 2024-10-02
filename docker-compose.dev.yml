@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  nextjs-stock-client:
+    image: nextjs-docker-client:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3000:3000
