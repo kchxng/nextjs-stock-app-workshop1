@@ -1,7 +1,7 @@
 version: "3.8"
 services:
-  nextjs-stock-client:
-    image: nextjs-docker-client:latest
+  frontend-app:
+    image: nextjs-stock:latest
     # build:
     #   context: .
     #   dockerfile: Dockerfile
