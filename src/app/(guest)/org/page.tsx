@@ -1,7 +1,3 @@
-import React from "react";
-
-type Props = {};
-
-export default function OrgPage({}: Props) {
+export default function OrgPage() {
   return <div>Organization Page</div>;
 }

@@ -1,9 +1,5 @@
 import Image from "next/image";
-import React from "react";
-
-type Props = {};
-
-export default function StockPage({}: Props) {
+export default function StockPage() {
   return (
     <div>
       <Image
