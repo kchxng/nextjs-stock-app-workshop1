@@ -1,7 +1,3 @@
-import React from "react";
-
-type Props = {};
-
-export default function ListingPage({}: Props) {
+export default function ListingPage() {
   return <div>ListingPage</div>;
 }
