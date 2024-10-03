@@ -126,3 +126,11 @@ const nextConfig = {
 2. [Clone our example](https://github.com/vercel/next.js/tree/canary/examples/with-docker) [or the multi-environment example](https://github.com/vercel/next.js/tree/canary/examples/with-docker-multi-env)
 3. Build your container: `docker build -t nextjs-docker-client:latest .`
 4. Run your container: `docker run -p 3000:3000 nextjs-docker`
+   <br/>
+
+```bash
+docker build -t localhost:5000/nextjs-docker-client:latest .
+docker login
+docker push localhost:5000/nextjs-docker-client:latest
+docker run -p 3000:3000 nextjs-docker
+```
